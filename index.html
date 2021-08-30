@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <header>Jeu de Devinette!</header>
+    </div>
+    <div class="row justify-content-center principal mt-5 mb-4">
+        <div class="col-md-8">
+            <div class="bg-light p-5 shadow">
+                <form id="form">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control reponse" placeholder="deviner le nbre (entre 1 et 100)">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Deviner</button>
+                    </div>
+                    <small id="error" class="text-danger">Vous devez entrer un nombre</small>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center ">
+        <div class="col-md-8" id="instruction">
+
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

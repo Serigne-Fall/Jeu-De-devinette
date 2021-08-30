@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+header{
+    color: red;
+    letter-spacing: 2px;
+    text-shadow: 1px 0px 3px red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-large;
+}
+.bg-light{
+
+}
+.instruction{
+    padding: 15px;
+    margin: 10px 0px;
+}
+.plus{
+    background-color: #a3eed0;
+}
+.moins{
+    background-color: greenyellow;
+}
+.fini{
+    background-color: orangered;
+}
